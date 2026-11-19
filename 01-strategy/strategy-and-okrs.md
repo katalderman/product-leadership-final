@@ -1,4 +1,5 @@
 # Product Strategy & OKRs: Perdue AI Chat Foundations
+# OKRs = Objectives and Key Results
 
 > Module 1 · Write a Strategy That Can Survive a Test
 
@@ -16,7 +17,7 @@
 
 > **Hard no:** We will not ship AI directly in front of consumers at this time. AI-drafted answers go to our consumer care representatives, who edit, send, or reject each one and rate its accuracy. That rating stream is the gate: no consumer-facing AI until rep-rated accuracy holds at 95% for two consecutive quarters. Until that bar is met, an AI answering a consumer’s allergen or food-safety question unreviewed is a liability we have chosen not to carry, no matter how strong the demand.
 
-## 3. OKR cascade
+## 3. OKR (Objective and Key Results) cascade
 
 > **Objective:** Make AI a trusted, measurable part of how Perdue gets product content and consumer answers to market.
 >
