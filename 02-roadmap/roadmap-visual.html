@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outcome Roadmap</title>
+<style>
+  :root {
+    --navy: #003C71;
+    --purple: #96268F;
+    --gold: #FFCC33;
+    --ink: #1a2330;
+    --muted: #5a6575;
+    --bg: #ffffff;
+    --col-bg: #f4f6f9;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1920px;
+    height: 1080px;
+    background: var(--bg);
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    padding: 44px 56px 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  header { margin-bottom: 28px; }
+  h1 { font-size: 40px; font-weight: 700; color: var(--navy); letter-spacing: -0.5px; }
+  .subtitle { font-size: 20px; color: var(--muted); margin-top: 6px; }
+  .board {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1.08fr 1fr;
+    gap: 28px;
+    min-height: 0;
+  }
+  .col {
+    background: var(--col-bg);
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    min-height: 0;
+  }
+  .col-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2px 4px 10px;
+    border-bottom: 4px solid;
+  }
+  .col-now .col-head { border-color: var(--navy); }
+  .col-next .col-head { border-color: var(--purple); }
+  .col-later .col-head { border-color: var(--gold); }
+  .col-title { font-size: 30px; font-weight: 800; }
+  .col-now .col-title { color: var(--navy); }
+  .col-next .col-title { color: var(--purple); }
+  .col-later .col-title { color: #8a6d00; }
+  .col-sub { font-size: 17px; font-weight: 600; color: var(--muted); }
+  .card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 16px 18px 14px;
+    border-left: 6px solid;
+    box-shadow: 0 1px 4px rgba(16, 32, 54, 0.10);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+  .col-now .card { border-color: var(--navy); }
+  .col-next .card { border-color: var(--purple); }
+  .col-later .card { border-color: var(--gold); }
+  .bet { font-size: 18.5px; font-weight: 650; line-height: 1.3; }
+  .col-next .bet { font-size: 17px; }
+  .meta { font-size: 14.5px; line-height: 1.35; color: var(--muted); }
+  .meta b { color: var(--ink); font-weight: 700; }
+  .gate {
+    background: #fff7dd;
+    border: 2px dashed #d9a800;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 15.5px;
+    font-weight: 650;
+    color: #6e5600;
+    line-height: 1.35;
+  }
+  footer {
+    margin-top: 22px;
+    font-size: 15px;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>AI Chat Foundations: Outcome Roadmap</h1>
+    <div class="subtitle">Every item is a strategic bet tied to an OKR. Consumer-facing AI unlocks only when the reliability gate is met.</div>
+  </header>
+
+  <div class="board">
+    <div class="col col-now">
+      <div class="col-head"><span class="col-title">Now</span><span class="col-sub">0 to 3 months</span></div>
+      <div class="card">
+        <div class="bet">Care rep AI copilot with a rating loop: every rep decision becomes the accuracy evidence KR2 requires.</div>
+        <div class="meta"><b>Product + Consumer Care</b><br>Signal: acceptance rate baselined and trending toward 95%</div>
+      </div>
+      <div class="card">
+        <div class="bet">Compliance validation harness: claims, allergen and labeling checks make 95% uncorrected accuracy reachable.</div>
+        <div class="meta"><b>Product + Regulatory</b><br>Signal: 100% of seeded errors caught, zero unapproved claims published</div>
+      </div>
+      <div class="card">
+        <div class="bet">First pipeline slice: DAM to PIM for one brand catalog proves the architecture and the first cycle-time drop.</div>
+        <div class="meta"><b>Product Data + Engineering</b><br>Signal: pilot brief-to-live time falls below baseline (KR1, KR3)</div>
+      </div>
+    </div>
+
+    <div class="col col-next">
+      <div class="col-head"><span class="col-title">Next</span><span class="col-sub">3 to 6 months</span></div>
+      <div class="card">
+        <div class="bet">Full pipeline rollout across brands and content types.</div>
+        <div class="meta"><b>Engineering + Product Data</b> · Signal: majority of pilot-brand volume, on path to 80%</div>
+      </div>
+      <div class="card">
+        <div class="bet">Product page copy and image tagging workflows, reusing the harness.</div>
+        <div class="meta"><b>Content + E-commerce</b> · Signal: QA pass uncorrected at target rate</div>
+      </div>
+      <div class="card">
+        <div class="bet">Retailer syndication automation on clean PIM governance.</div>
+        <div class="meta"><b>Product Data</b> · Signal: error rate below manual baseline</div>
+      </div>
+      <div class="card">
+        <div class="bet">Build vs buy decision on the customer-agent platform at renewal.</div>
+        <div class="meta"><b>Product + Procurement</b> · Signal: decision memo with cost per resolved conversation</div>
+      </div>
+      <div class="card">
+        <div class="bet">Contact page friction redesign, removing the email gate.</div>
+        <div class="meta"><b>UX + Consumer Care</b> · Signal: digital contact share rises, phone share falls</div>
+      </div>
+    </div>
+
+    <div class="col col-later">
+      <div class="col-head"><span class="col-title">Later</span><span class="col-sub">6 to 12 months</span></div>
+      <div class="gate">RELIABILITY GATE: 95% rep-rated accuracy held for two consecutive quarters. Nothing below starts before the gate is met.</div>
+      <div class="card">
+        <div class="bet">Bet: consumer-facing AI answers on the brand sites.</div>
+        <div class="meta"><b>Consumer Care + Product</b><br>Signal: where-to-buy queries resolved instantly, zero accuracy incidents</div>
+      </div>
+      <div class="card">
+        <div class="bet">Bet: recipe navigation assistant on the most-visited page, if improved search cannot solve it alone.</div>
+        <div class="meta"><b>Marketing + E-commerce</b><br>Signal: recipe path completion rate rises</div>
+      </div>
+      <div class="card">
+        <div class="bet">Bet: omnichannel copilot expansion to phone and social.</div>
+        <div class="meta"><b>Consumer Care + Engineering</b><br>Signal: AI-assisted phone share grows without correction-rate regression</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>Objective: make AI a trusted, measurable part of how product content and consumer answers get to market</span>
+    <span>Bets, not commitments · Later items are gated, not scheduled</span>
+  </footer>
+</body>
+</html>
