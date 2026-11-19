@@ -1,25 +1,25 @@
-# Outcome Roadmap & Trade-off Memo
+# Outcome Roadmap & Trade-off Memo: Perdue AI Chat Foundations
 
 > Module 2 · Turn Your Strategy into an Outcome Roadmap
 
 ## 1. Trade-off memo
 
-> **Rock 1:** _____
+> **Rock 1:** AI copilot for consumer care reps with a rating and feedback loop, evaluating a commercial customer-agent platform as the delivery tooling (supports KR2): Rep copilot with rating loop (item 1) supports KR2. It creates the accept/edit metric stream itself; without it KR2 cannot be measured at all. The vendor evaluation folds in here as a build-vs-buy decision, not a separate initiative.
 >
-> **Rock 2:** _____
+> **Rock 2:** Compliance validation harness: automated checks against approved claims, allergen, and labeling data before anything publishes (supports KR2): Compliance validation harness supports KR2 and KR1 (Avg time from content brief to live across all channels drops). It’s what makes 95% uncorrected accuracy reachable and is the capability no generic tool replicates, so it’s the How to Win made real.
 >
-> **Rock 3:** _____
+> **Rock 3:** First pipeline slice: DAM to PIM enrichment for one brand’s product catalog, with the compliance checks from Rock 2 wired in. High impact, moderate effort once scoped to one workflow and one brand (supports KR1): First pipeline slice: DAM to PIM enrichment for one brand catalog, compliance checks included.” Supports KR1 and KR3 ((AI Pipelines carry at least 80% of new product content), and the how-it-moves line: “Proves the pipeline architecture on real volume and produces the first measured cycle-time reduction, which the full rollout in Next scales to 80% of content volume
 >
-> **Hard no 1:** _____
+> **Hard no 1:** Integrate service conversation data into marketing profiles: Consumer-facing chat agent on the brand sites. It waits because the reliability gate isn’t met, and because its pricing depends on resolved-conversation volume we haven’t baselined yet (that’s item 3). It becomes a Later bet, not a dead idea.
 >
-> **Hard no 2:** _____
+> **Hard no 2:** Consumer recipe navigation assistant on the most-visited site page: Consumer recipe navigation assistant. Moves no KR, and the underlying problem may be site search and content structure, not a missing AI. Revisit after the gate.
 >
-> **Hard no 3:** _____
+> **Hard no 3:** Integrate service conversation data into marketing profiles: Service data into marketing profiles. Zero OKR movement this year, and it adds a consumer data consent surface while we’re still earning trust internally. Classic scope creep from a vendor bundle.
 
 ## 2. Outcome roadmap
 
 | Horizon | Outcome / bet | Owning team(s) | Success signal |
 |---|---|---|---|
-| Now (0 to 3 mo) | _____ | _____ | _____ |
-| Next (3 to 6 mo) | _____ | _____ | _____ |
-| Later (6 to 12 mo) | _____ | _____ | _____ |
+| Now (0 to 3 mo) | We bet an AI copilot with a rating and feedback loop will turn every care rep decision into the trusted accuracy evidence KR2 requires, for the care team and the whole AI program; We bet a compliance validation harness checking approved claims, allergen, and labeling data before anything publishes will make 95% uncorrected accuracy reachable for every team shipping AI output (KR2, KR1); We bet a first pipeline slice, DAM to PIM enrichment for one brand catalog with compliance checks wired in, will prove the architecture and deliver the first measured cycle-time drop for the product data team (KR1, KR3) | Product + consumer care; Product + regulatory advisory; Product data + engineering | Rep acceptance rate baselined and trending toward 95%, monthly chat volume baseline captured; harness catches 100% of seeded claim and allergen errors in pre-launch evals, zero unapproved claims published; pilot brand brief-to-live time drops below the measured baseline |
+| Next (3 to 6 mo) | Full pipeline rollout across brands and content types (after Now because the single-brand slice must prove the architecture and cycle-time gain first); product page copy and image tagging workflows (after Now because they reuse the validation harness rather than rebuilding it); retailer syndication automation (after Now because PIM and DAM governance must be clean before feeds go out unattended); build-vs-buy decision on the commercial customer-agent platform at contract renewal (after Now because pricing depends on the chat volume baseline and copilot evidence captured in Now); contact page friction redesign removing the email gate (after Now because it is a quick win once the rocks are staffed, and it cuts consumer wait times with zero AI liability) | Engineering + product data; Content + e-commerce; Product data; Product + procurement; UX + consumer care | Pipelines carry a majority of pilot-brand content volume on the path to 80%; copy and tagging pass QA uncorrected at target rate; syndication error rate down versus manual baseline; decision memo with cost per resolved conversation; digital contact share rises, phone share falls |
+| Later (6 to 12 mo) | Bet: consumer-facing AI answers on the brand sites, unlocked only when the reliability scorecard holds 95% rep-rated accuracy for two consecutive quarters; Bet: recipe navigation assistant on the most-visited site page, contingent on the same gate and on evidence that improved site search cannot solve it alone; Bet: omnichannel copilot expansion to phone and social, where the largest share of inquiry volume lives | Pending gate: consumer care + product; Marketing + e-commerce; Consumer care + engineering | Gate met and documented before any build starts; where-to-buy queries resolved instantly with zero accuracy incidents; AI-assisted share of phone interactions grows without correction-rate regression |
