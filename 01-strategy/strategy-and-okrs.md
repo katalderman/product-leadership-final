@@ -14,7 +14,7 @@
 
 ## 2. Your one hard no
 
-> **Hard no:** We will not ship AI directly in front of consumers. at this time. AI-drafted answers go to our consumer care representatives, who edit, send, or reject each one and rate its accuracy. That rating stream is the gate: no consumer-facing AI until rep-rated accuracy holds at 95% for two consecutive quarters. Until that bar is met, an AI answering a consumer’s allergen or food-safety question unreviewed is a liability we have chosen not to carry, no matter how strong the demand.
+> **Hard no:** We will not ship AI directly in front of consumers at this time. AI-drafted answers go to our consumer care representatives, who edit, send, or reject each one and rate its accuracy. That rating stream is the gate: no consumer-facing AI until rep-rated accuracy holds at 95% for two consecutive quarters. Until that bar is met, an AI answering a consumer’s allergen or food-safety question unreviewed is a liability we have chosen not to carry, no matter how strong the demand.
 
 ## 3. OKR cascade
 
